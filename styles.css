@@ -1,33 +1,30 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    
+    text-align: center;
 }
-
-
-#title{
+/* title section */
+#title .container-fluid{
     background-color: #ff4c68;
     color: #fff;
-}
-.container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
 }
-
-h1{
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5;
+/* title images */
+.title-image{
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 
 }
-h2{
+h1,h2{
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
     line-height: 1.5;
 }
 h3{
     font-family: "Montserrat";
-    margin-bottom: 0;
-
-    
+    margin-bottom: 0;  
 }
 p{
     color: #8f8f8f;
@@ -47,14 +44,10 @@ nav.navbar {
     font-family: "Ubuntu" , sans-serif;
     font-size: 2rem;
     font-weight: bold;
-
-
 }
-
 .nav-item {
     padding: 0 18px;
 }
-
 .nav-link {
     font-family: "Montserrat-light",arial;
     font-size: 1rem
@@ -64,15 +57,6 @@ nav.navbar {
 .download-button {
     margin: 5% 3% 5% 0;
     font-family: "arial";
-    
-}
-/* title images */
-.title-image{
-    width: 55%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
-
 }
 /* features section */
 #features {
@@ -81,13 +65,9 @@ nav.navbar {
     background-color: #fff;
     position: relative;
     z-index: 1;
-    
-
 }
 .feature-box{
-    text-align: center;
     padding: 4.5%;
-   
 }
 .icon {
     color: #ef8172; 
@@ -99,9 +79,7 @@ nav.navbar {
 /* testimonial section */
 #testimonials{
     background-color:#ef8172;
-    text-align: center;
     color: #fff;
-
 }
 .testimonial-image{
     width: 10%;
@@ -111,7 +89,6 @@ nav.navbar {
 /* press and testimonial */
 #press{
     background-color:#ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logo{
@@ -138,15 +115,13 @@ nav.navbar {
 #pricing{
     padding: 100px;
     font-family: "Montserrat-light",arial;
-    text-align: center;
+   
 }
 .pricing-column{
     padding: 3% 2%;
 }
-
 .card-title{
     background-color: #faf3f3;
-    text-align: center;
     margin-bottom: 0;
 }
 .pricing-dog{
@@ -160,14 +135,9 @@ nav.navbar {
     background-color: #ff4c68;
     color: #fff;
     padding:7% 15% ;
-    text-align: center;
-    
-    
-
 }
 /* footer section */
-#footer{
-    text-align: center;
+#footer{ 
     padding:7% 15% ;
 }
 .cta-heading{
